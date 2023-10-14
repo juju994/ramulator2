@@ -4,6 +4,8 @@
 #include <string>
 #include <vector>
 
+#include <cstdint>  // 编译报错找不到uint64_t的定义, 报错信息中建议在此添加
+
 namespace Ramulator {
 
 /************************************************

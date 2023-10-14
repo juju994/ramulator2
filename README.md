@@ -60,7 +60,7 @@ Configure the project and build the executable
   $ cd build
   $ cmake ..
   $ make -j
-  $ cp ./ramulator2 ../ramulator2
+  $ cp ./ramulator2 ../ramulator2     // 把build/里的ramulator2可执行文件复制到根目录下
   $ cd ..
 ```
 This should produce a `ramulator2` executable that you can execute standalone and a `libramulator.so` dynamic library that can be used as a memory system library by other simulators.
